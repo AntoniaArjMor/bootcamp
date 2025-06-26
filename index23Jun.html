@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doom</title>
+</head>
+<body>
+    <input type="button" value="Saludar" class="boton" id = "saludar">
+    <input type="button" value="Despedir" class="boton" id="despedir">
+
+    <script>
+            /*
+        querySelector() selecciona EL PRIMER ELEMENTO (CLASE) u UNICO(id)
+        y querySelectorAll() SELECCIONA +1 DATO
+        */
+
+
+        let boton = document.querySelector('.boton');
+        const boton2  = document.querySelectorAll('#despedir');
+        /*
+        querySelectorAll()
+        */
+
+        const botones = document.querySelectorAll('.boton') //selecciona todo lo de esa clase
+        //Si queryselector no pilla nanda queda en 0 pero no en null
+        const enlaces = document.querySelectorAll('.enlaces')
+    </script>
+    
+</body>
+</html>
